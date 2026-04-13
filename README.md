@@ -1,5 +1,4 @@
-````markdown
-# 🖧 Samba AD DC — GRX Solutions
+## 🖧 Samba AD DC — GRX Solutions
 
 Repositório: `guilherme-suzin/grx-enterprise`
 
@@ -103,4 +102,3 @@ systemctl enable samba-ad-dc --now
 🌐 [https://grxsolutions.co](https://grxsolutions.co)
 📧 [gui.suzin@live.com](mailto:gui.suzin@live.com)
 
-```
