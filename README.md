@@ -125,7 +125,11 @@ sudo dnf install samba -y
 #  Possíveis Erros
 Necessidade de remover o sssd-common;
 Necessidade de remover python3-tevent;
-Necessidade de remover samba* (antes de instalar o samba do repositório da Onbit);
+Necessidade de remover samba* (antes de instalar o samba do repositório da GRX);
+
+```bash
+sudo dnf remove sssd-common python3-tevent
+```
 
 ---
 
@@ -141,6 +145,6 @@ Necessidade de remover samba* (antes de instalar o samba do repositório da Onbi
 
 # 👤 Maintainer
 
-**Onbit Technology — Infraestrutura & Segurança da Informação**
+**GRX Solutions — Soluções Tecnológicas Inovadoras para seu Negócio**
 🌐 [https://grxsolutions.co](https://grxsolutions.co)
 📧 [gui.suzin@live.com](mailto:gui.suzin@live.com)
